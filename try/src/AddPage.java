@@ -1,7 +1,10 @@
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-
+// my current probelm is in this page, as you can notice i created this page using Gui form to create some text holders, but this page is not working whenever i run the 
+//program an error appears to me("Cannot bind: field does not exist: AddPage.NameField") i dont not know how to solve this i searched on google,youtube and even with chat gpt
+// but i could not figure it out how to solve it, i was planning to use the gui form desgin for the rest of the pages but i think the same problem will happen to me, i wish you can
+// help me
 public class AddPage {
     private JTextField nameHolder;
     private JTextField addressHolder;
@@ -76,9 +79,5 @@ public class AddPage {
         frame.setVisible(true);
     }
 
-    public static void main(String[] args) {
-        SwingUtilities.invokeLater(() -> {
-            new AddPage();
-        });
-    }
+    
 }
